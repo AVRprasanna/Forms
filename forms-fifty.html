@@ -1,0 +1,1205 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="online forms">
+    <meta name="keywords" content="HTML, CSS, Javascript, fullstack, webdevelope">
+    <meta name="author" content="prasanna">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>form model</title><br><br><br>
+    </head>
+    <hr>
+
+    <!--Login-form-->
+
+    <header align="center" style="color:rgb(127, 3, 243);font-size: x-large;">
+        <strong>Login form
+        </strong>
+    </header>
+    <br>    
+    <body leftmargin="25" topmargin="25">
+        <form method="get">
+            <table border="0" cellpadding="10" width="40%" align="center" bgcolor="gray">
+                    <tr>
+                        <td colspan="2" align="center">
+                            <p>User Login
+                            </p>
+                        </td>
+                    </tr>
+                    <td width="50%" align="center" style="color:whitesmoke;">
+                        <label for="uname">User Name:
+                        </label>
+                    </td>
+                    <td width="50%" align="center">
+                        <input type="text" id="uname" name="uname" placeholder="type your name" size="30" min="3" maxlength="20">
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" style="color:whitesmoke;">
+                        <label for="pspassword">Password:
+                        </label>
+                    </td>
+                    <td align="center">
+                        <input type="password" id="pspassword" size="30" min="8">
+                    </td>
+                
+                <tr>
+                    <td align="center" style="color:whitesmoke;" colspan="2">
+                        <input type="submit" id="#login" value="login">
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <br><br><br><hr>
+
+    <!--signup-form-->
+
+        <header align="center" style="color:rgb(8, 158, 245); font-size: x-large;">
+            <strong>SIGN UP
+            </strong>
+            <br>
+            <p align="center" style="font-style:italic; font-size: smaller;" >
+                please fill in this form to create an account
+            </p>
+        </header>
+        <form method="get">
+        <table border="0" width="40%" align="center" bgcolor="pink">
+            <tr>
+                <td>
+                    <br>
+                </td>
+            </tr>
+            <tr>
+                <td width="50%" style="background-color:pink"align="center">
+                    <input type="text" id="fname" name="fname" placeholder="Your First Name" size="40" min="3" maxlength="20">
+                </td>
+                <td width="50%" style="background-color:pink;"align="center">
+                    <input type="text" id="lname" name="fname" placeholder="Your Last Name" size="40" min="3" maxlength="20">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <br>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="background-color:pink;"align="center">
+                    <input type="password" id="pspassword" size="30" min="8" placeholder="password">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="background-color:pink;"align="center" cellpadding="10">
+                    <input type="password" id="pspassword" size="30" min="8" placeholder="confirm password">
+                </td>
+            </tr>
+            <br><br>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Sign up">
+                </td>
+            </tr>
+            <br><br>
+            <tr style="color:blue;">
+                <td >Already have an account login here 
+                    <a href="login" targer="_self">Login here
+                    </a>
+                </td>
+            </tr>
+        </table>
+        <br><br><br><hr>
+
+    <!--Registration form-->
+
+        <header align="center" style="color:rgb(224, 13, 243); font-size: x-large;">
+            <strong>Registration
+            </strong>
+            <br>
+            <p align="center" style="font-style:times new roman; font-size:small;" >
+                please fill the form to register
+            </p>
+        </header>
+        <form method="post" action="/action_page.php" target=_blank>
+            <table border="0" width="40%" align="center" bgcolor="skyblue">
+                <tr>
+                    <td>
+                        <br>
+                    </td>
+                </tr>
+            <tr>
+                <td width="50%"align="center">
+                    <input type="text" id="fname" name="fname" placeholder="Your First Name" size="30" min="3" maxlength="20">
+                </td>
+                <td width="50%" align="center">
+                    <input type="text" id="lname" name="fname" placeholder="Your Last Name" size="30" min="3" maxlength="20">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <br>
+                </td>
+            </tr>
+            <tr>
+                <td width="50%"align="center">
+                    <input type="text" id="fname" name="uname" placeholder="User Name" size="30" min="3" maxlength="8">
+                <td width="50%" align="center">
+                    <input type="email" id="mail" size="30"  placeholder="E mail">
+                </td>
+                <tr><td><br></td></tr>
+            </tr>
+            <tr>
+                <td width="50%" align="center">
+                    <input type="password" id="pspassword" size="30" min="8" placeholder="password">
+                </td>
+                <td width="50%" align="center">
+                    <input type="password" id="pspassword" size="30" min="10" placeholder="confirm password">
+                </td>
+                <tr>
+                    <td>
+                        <br>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="checkbox" id="termspolicy" name="conditions" value="terms&policy" required>
+                        <label for="termspolicy">Accept the terms of use and
+                            <a href="" target="_blank"> privacy policy
+                            </a>
+                        </label> 
+                    </td>
+                </tr>
+            </tr>
+            <tr>
+                <td>
+                    <br>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Apply">
+                </td>
+            </tr>
+            <br><br>
+            <tr>
+                <td>
+                    <br>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <br><br><br><hr>
+    
+    <!--Flight booking form-->
+
+    <div style=background-color:yellow;" align="center" >Flight booking form
+    </div><br><br>
+    <form method="post" action="/action_page.php" target=_blank>
+        <table border="0" width="40%" cellpadding="1" align="center" bgcolor="litegray">
+            <tr>
+                <td colspan="3" align="center"> 
+                    <div>
+                        Air ticket Booking Form
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">passenger name
+                </td>
+            </tr>
+            <tr>
+                <td width="33%">
+                    <input type="text" id="tname" name="tname" placeholder="Title" size="30" min="3" maxlength="8">
+                </td>
+                <td width="33%">
+                <input type="text" id="tname" name="fname" placeholder="first name" size="30" min="3" maxlength="8">
+                </td>
+                <td width="33%">
+                    <input type="text" id="tname" name="lname" placeholder="last name" size="30" min="3" maxlength="8">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="0">
+                    <label for="dob">Date of Birth</label>
+                </td>
+                <td>
+                    <input type="date" id="dob" name="birthdate">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <lable>Contact Person
+                    </lable>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" id="tname" name="tname" placeholder="Title" size="30" min="3" maxlength="8">
+                </td>
+                <td>
+                    <input type="text" id="tname" name="fname" placeholder="first name" size="30" min="3" maxlength="8">
+                </td>
+                <td>
+                    <input type="text" id="tname" name="lname" placeholder="last name" size="30" min="3" maxlength="8">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <lable for="email">E-mail
+                    </lable> 
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="email" id="mailid" name="email" required>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <label for="phone">Contact Number
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+                        <small>Format:0123456789 
+                        <small>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <lable for="address">Address
+                    </lable>
+                </td>
+            </tr>
+            <tr>    
+                <td colspan="3">
+                    <input type="text" size="80" maxlength="50" placeholder=" street address" required>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <input type="text" size="80" maxlength="50" placeholder=" street address line 2" required>
+                </td>
+                </tr>
+            <tr>
+                <td >
+                    <lable for="Slcity"> select city
+                    </lable>
+                </td>
+                <td>
+                    <label for="DEdate">Depature date
+                    </label>
+                </td>
+                <td>
+                    <lable for="Detime">Depature time
+                    </lable>
+                </td>
+            </tr>
+            <tr>
+                <td><select name="city">
+                    <option value="selectcity">select city</option>
+                    <option value="chennai">chennai</option>
+                    <option value="Banglore">Banglore</option>
+                    <option value="Hyderabad">Hyderabad</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Delhi">Delhi</option>
+                </select></td>
+                <td>
+                    <input type="date">
+                </td>
+                <td colspan="2">
+                    <input type="time">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3"> 
+                    <lable for="retbooking">Return booking:
+                    </lable>
+                </td>
+            <tr>
+                <td> 
+                    <label for="slcity"> select city
+                    </label> 
+                </td>
+                <td>
+                    <label for="Dedate"> Depature date
+                    </label> 
+                </td>
+                <td>
+                    <lable for="Detime">Depature Time
+                    </lable>
+                </td>
+            </tr>
+            </tr>
+            <tr>
+                <td>
+                    <select name="city">
+                        <option value="selectcity">select city</option>
+                        <option value="chennai">chennai</option>
+                        <option value="Banglore">Banglore</option>
+                        <option value="Hyderabad">Hyderabad</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Delhi">Delhi</option>
+                </td>
+                <td>
+                    <input type="date">
+                </td>
+                <td>
+                    <input type="time">
+                </td>
+            </tr>
+            <tr>
+                <tr>
+                    <td>
+                        <label for="airlineslt">Select Airline</label>
+                    </td>
+                </tr>
+                <td >
+                    <select name="Flight">
+                        <option value="Airline">select city
+                        </option>
+                        <option value="Airindia">Airindia
+                        </option>
+                        <option value="Indigo">Indigo
+                        </option>
+                        <option value="Alliance jet">Alliance jet
+                        </option>
+                        <option value="Jet lite">Jet lite
+                        </option>
+                        <option value="Spice Jet">spice Jet
+                        </option>
+                </td>
+                <td  align="center">
+                    <input type="submit" value="Booking">
+                </td>
+            </tr>
+            </table>
+    </form>
+    <br><br><br><hr>
+
+    <!--Hotel booking-->
+
+    <div style=background-color:blue;color:aliceblue;" align="center"> Hotel Booking Form
+    </div><br><br>
+    <form method="post" action="/action_page.php" target=_blank>
+        <table border="0" width="40%" cellpadding="4 " align="center" bgcolor="pink">
+            <tr>
+                <td colspan="3" align="center"> <div>Hotel Booking Form</div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">Guest name
+                </td>
+            </tr>
+            <tr>
+                <td width="33%">
+                    <input type="text" id="tname" name="tname" placeholder="Title" size="30" min="3" maxlength="8" required>
+                </td>
+                <td width="33%">
+                    <input type="text" id="tname" name="fname" placeholder="first name" size="30" min="3" maxlength="8" required>
+                </td>
+                <td width="33%">
+                    <input type="text" id="tname" name="lname" placeholder="last name" size="30" min="3" maxlength="8">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="0">
+                    <label>ID proof</label>
+                </td>
+                <td>
+                    <input type="file" required>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <lable> Total Number of Guests
+                    </lable>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="number" required>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <lable for="email">E-mail
+                    </lable> 
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="email" id="mailid" name="email" required>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <label for="phone">Contact Number
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+                        <small>Format:0123456789 
+                        <small>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <lable for="address">Address
+                    </lable>
+                </td>
+            </tr>
+            <tr>    
+                <td colspan="3">
+                    <input type="text" size="80" maxlength="50" placeholder=" street address" required>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <input type="text" size="80" maxlength="50" placeholder=" street address line 2" required>
+                </td>
+                </tr>
+            <tr>
+                <td colspan="3">
+                    <label for="Ardatetime"> Arrival date & Time
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="date">
+                    <input type="time">
+                    <select>
+                        <option>
+                            A.M
+                        </option>
+                        <option>
+                            P.M
+                        </option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3"> 
+                    <label for="Dedatetime">Depature date & Time
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="date">
+                    <input type="time">
+                    <select>
+                        <option>
+                            A.M
+                        </option>
+                        <option>
+                            P.M
+                        </option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+            <tr>
+                    <td>
+                        <lable for="roomtype">Select Room type
+                        </lable>
+                    <select name="room type">
+                        <option value="Normal">Ordinary</option>
+                        <option value="AC">A/C</option>
+                        <option value="Elite">Elite</option>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" align="center">
+                    <input type="submit" value="Booking">
+                </td>
+            </tr>
+        </table>
+    </form>
+    <br><br><br><hr>
+    <!--Bus booking form-->
+    <div style="background-color:rgb(255, 0, 191);"" align="center" >Bus booking form
+    </div><br><br>
+    <form method="post" action="/action_page.php" target=_blank>
+        <table border="0" width="40%" cellpadding="10" align="center" bgcolor="gray">
+            <tr>
+                <td colspan="3" align="center"> <div>Bus ticket Booking Form</div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">passenger name
+                </td>
+            </tr>
+            <tr>
+                <td width="33%">
+                    <input type="text" id="tname" name="tname" placeholder="Title" size="30" min="3" maxlength="8">
+                </td>
+                <td width="33%">
+                <input type="text" id="tname" name="fname" placeholder="first name" size="30" min="3" maxlength="8">
+                </td>
+                <td width="33%">
+                    <input type="text" id="tname" name="lname" placeholder="last name" size="30" min="3" maxlength="8">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" >
+                    <lable for="email">E-mail
+                    </lable>
+                    <input type="email" id="mailid" name="email" size="30" required>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <label for="phone">Contact Number
+                    </label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" size="30" required>
+                        <small>Format:0123456789 
+                        <small>
+                </td>
+            </tr>
+            <tr>    
+                <td colspan="3" >
+                    <label>Number of seats</label>
+                    <input type="number">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <lable for="from-city">From
+                    </lable>
+                    <select name="city" required>
+                        <option value="selectcity">select city
+                        </option>
+                        <option value="chennai">chennai
+                        </option>
+                        <option value="Banglore">Banglore
+                        </option>
+                        <option value="coimbatore">coimbatore
+                        </option>
+                        <option value="trichy">trichy
+                        </option>
+                        <option value="madurai">madurai 
+                        </option>
+                    </select>
+                </td>
+                <td>
+                    <label for="to-city">To
+                    </label>
+                    <select name="city" required>
+                        <option value="selectcity">select city
+                        </option>
+                        <option value="chennai">chennai
+                        </option>
+                        <option value="Banglore">Banglore
+                        </option>
+                        <option value="coimbatore">coimbatore
+                        </option>
+                        <option value="trichy">trichy
+                        </option>
+                        <option value="madurai">madurai 
+                        </option>
+                    </select>
+                </td>
+                    <td>
+                        <label>Depature date
+                        </label>
+                        <input type="date">
+                    </td>
+                    <td>
+                        <label>Time
+                        </label>
+                        <input type="time">
+                        <select>
+                            <option>A.M
+                            </option>
+                            <option>P.M
+                            </option>
+                        </select>
+                    </td>
+                </tr>
+                <td colspan="3">
+                    <lable for="seattype">Select type</lable>
+                    <select name="types">
+                        <option> AC/Non-A/C/ seated/sleeper
+                        </option>
+                        <option value="AC seated">Ac pushback seated
+                        </option>
+                        <option value="AC sleeper">AC sleeper
+                        </option>
+                        <option value="Non AC seated">Non AC pushbackxseated
+                        </option>
+                        <option value="Non AC seated">Non AC seated
+                        </option>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" align="center">
+                    <input type="submit" value="Book">
+                </td>
+            </tr>
+        </table>
+    </form>
+        <br><br><br><hr>
+    <!--Movie booking-->
+
+    <div style="background-color:rgb(115, 255, 0) ;" align="center" >Movie booking form
+    </div><br><br>
+    <form method="post" action="/action_page.php" target=_blank>
+        <table border="0" width="40%" cellpadding="10" align="center" bgcolor="blueviolet">
+            <tr>
+                <td colspan="3" align="center"> <div>Movie Booking Form</div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <label for="booky name">Name
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td width="33%">
+                    <input type="text" id="tname" name="tname" placeholder="Title" size="30" min="3" maxlength="8">
+                </td>
+                <td width="33%">
+                <input type="text" id="tname" name="fname" placeholder="first name" size="30" min="3" maxlength="8">
+                </td>
+                <td width="33%">
+                    <input type="text" id="tname" name="lname" placeholder="last name" size="30" min="3" maxlength="8">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" >
+                    <lable for="email">E-mail
+                    </lable>
+                    <input type="email" id="mailid" name="email" size="30" required>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <label for="phone">Contact Number
+                    </label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" size="30" required>
+                        <small>Format:0123456789 
+                        <small>
+                </td>
+            </tr>
+            <tr>    
+                <td colspan="3" >
+                    <label>Number of seats</label>
+                    <input type="number" min="1" max="10">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <lable for="Moviename">Movie
+                    </lable>
+                    <select name="movietitle" required>
+                        <option value="Movie">select Movie
+                        </option>
+                        <option value="don">Don
+                        </option>
+                        <option value="Vikram">Vikram
+                        </option>
+                        <option value="Kgf2">KGF2
+                        </option>
+                        <option value="Beast">Beast
+                        </option>
+                    </select>
+                </td>
+                <td>
+                    <label for="date">Booking date
+                    </label>
+                    <input type="date">
+                </td>
+                <td>
+                    <label for="time">Show Time
+                    </label>
+                    <input type="time">
+                        <select>
+                            <option>A.M
+                            </option>
+                            <option>P.M
+                            </option>
+                        </select>
+                </td>
+                </tr>
+                <td colspan="3">
+                    <lable for="seattype">Select type</lable>
+                    <select name="types">
+                        <option> Seat type
+                        </option>
+                        <option value="seat"> seat
+                        </option>
+                        <option value="couple sea">couple seat
+                        </option>
+                        <option value="Sofa">Sofa
+                        </option>
+                        <option value="studio Box">studio Box
+                        </option>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" align="center">
+                    <input type="submit" value="Book">
+                </td>
+            </tr>
+        </table>
+    </form>    
+        <br><br><br><hr>
+    <!--Cab booking form-->
+    <div style="background-color:rgb(13, 185, 238) ;" align="center" >Cab booking form
+    </div><br><br>
+    <form method="post" action="/action_page.php" target=_blank>
+        <table border="0" width="40%" cellpadding="10" align="center" bgcolor="violet">
+            <tr>
+                <td colspan="3" align="center"> 
+                    <div>Cab Booking Form
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <label for="booky name">Name
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td width="33%">
+                    <input type="text" id="tname" name="tname" placeholder="Title" size="30" min="3" maxlength="8">
+                </td>
+                <td width="33%">
+                <input type="text" id="tname" name="fname" placeholder="first name" size="30" min="3" maxlength="8">
+                </td>
+                <td width="33%">
+                    <input type="text" id="tname" name="lname" placeholder="last name" size="30" min="3" maxlength="8">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" >
+                    <lable for="email">E-mail
+                    </lable>
+                    <input type="email" id="mailid" name="email" size="30" required>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <label for="phone">Contact Number
+                    </label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" size="30" required>
+                        <small>Format:0123456789 
+                        <small>
+                </td>
+            </tr>
+            <tr>    
+                <td colspan="3" >
+                    <label>Number of passengers</label>
+                    <input type="number" min="1" max="10">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <lable for="cabtype">Cab type
+                    </lable>
+                    <select name="cabtype" required>
+                        <option value="5std">5 seated
+                        </option>
+                        <option value="7std">7 seated
+                        </option>
+                        <option value="10std">10 seated
+                        </option>
+                    </select>
+                </td>
+                <td>
+                    <label for="date">Booking date
+                    </label>
+                    <input type="date">
+                </td>
+                <td>
+                    <label for="time"> Time
+                    </label>
+                    <input type="time">
+                        <select>
+                            <option>A.M
+                            </option>
+                            <option>P.M
+                            </option>
+                        </select>
+                </td>
+                </tr>
+                <td colspan="3">
+                    <lable for="seattype">Select type
+                    </lable>
+                    <select name="types">
+                        <option value="Ac">AC
+                        </option>
+                        <option value="Non-Ac">Non-AC
+                        </option>
+                    </select>    
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pickfrom">Pickup location
+                    </label>
+                    <select name="city" required>
+                        <option value="selectcity">select 
+                        </option>
+                        <option value="T-nagar">T-nagar
+                        </option>
+                        <option value="Adayar">Adayar
+                        </option>
+                        <option value="Koyambedu">Koyambedu
+                        </option>
+                        <option value="Guidy">Guidyy
+                        </option>
+                        <option value="Tambaram">Tambaram 
+                        </option>
+                    </select>
+                </td>
+                <td>
+                    <label for="pickfrom">Drop location
+                    </label>
+                    <select name="city" required>
+                        <option value="selectcity">select 
+                        </option>
+                        <option value="T-nagar">T-nagar
+                        </option>
+                        <option value="Adayar">Adayar
+                        </option>
+                        <option value="Koyambedu">Koyambedu
+                        </option>
+                        <option value="Guidy">Guidy
+                        </option>
+                        <option value="Tambaram">Tambaram 
+                        </option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" align="center">
+                    <input type="submit" value="Book">
+                </td>
+            </tr>
+        </table>
+    </form>    
+<br><br><br><hr>
+    <!--Payment Form-->                          
+     <div style="background-color:rgb(115, 11, 235); color: azure; text-align: center;" > 
+        Payment Method
+    </div>                               
+    <br>
+    <form method="post" action="/action_page.php" target=_blank>
+        <table border="0" cellpading="2" cellspacing="13" bgcolor="bluegreen" align="center">
+                <tr>
+                    <td colspan="3">
+                        <h3 style="text-align:center;" >Payment Methods
+                        </h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="radio" name="paytype">
+                        <label for="debcrd">Debit or Credit Card
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="radio" name="paytype">
+                        <label for="paypal" style="color:blue ;">
+                            Paypal
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" id="fname" placeholder=" first name" size="30">
+                    </td>
+                    <td>
+                        <input type="text" id="Lname" placeholder="lastname" size="30">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="crcrdnum">Credit Card Number
+                        </label>
+                    </td>
+                    <td colspan="2">
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}" maxlength="16" size="30" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="cvc">CVC</label>
+                    </td>
+                    <td>
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}"maxlength="3" size="3" required> 
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="cardexpirydate" > Card expiration</label>
+                    </td>
+                    <td>
+                        <input type="month" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" align="center">
+                        <input type="submit" value="Submit order">
+                    </td>
+                </tr>
+        </table>
+    </form>
+    <br><br><br><hr>
+
+    <!--Donation form-->
+    <div style="background-color:rgb(241, 149, 10); 
+    color: antiquewhite; text-align:center;"> Donation form
+    </div><br><br>
+    <form method="post" action="/action_page.php" target=_blank>
+        <table border="0" cellpading="2" cellspacing="13" bgcolor="yellowgreen" align="center">
+            <tr>
+                <td>
+                    <label for="name">
+                        Full Name
+                    </label>
+                </td>
+                <td>
+                    <input type="text" id="fname" name="fname" placeholder="First name" size="25" min="3" maxlength="20"required>
+                </td>
+                <td>
+                    <input type="text" id="lname" name="fname" placeholder="Last name" size="25" min="3" maxlength="20"required
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Mailid">E-Mail
+                    </label>
+                </td>
+                <td colspan="2">
+                    <input type="email" id="mail" size="30"  placeholder="E mail" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <lable for="mob num">Mobie number
+                    </lable>
+                </td>
+                <td>
+                    <input type="tel" id="contactnum" size="15" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="amount">
+                        Amount  
+                    </label>
+                </td>
+                <td>
+                    <input type="number" min="1" size="8" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <lable for="comment">
+                        Comments
+                    </lable>
+                </td>
+                <td>
+                    <textarea id="review" name="comments" rows="4" cols="40">
+                    </textarea>    
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <p style="font: size 1px; font-size: small;" > you will be directed to pay in few seconds after clicking "submit", 
+                        please complete all required informations</p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" align="center">
+                    <input type="submit" id="#submit" value="Submit (you'll be directed to pay)"> 
+                </td>
+            </tr>    
+        </table>    
+    </form>
+    <br><br><br><hr>
+<!--Download form-->
+<div style="background-color:rgb(10, 130, 241);
+color: aliceblue; text-align: center;">Download Form
+</div>
+<h4 style="text-align:center;"> 
+    To download the file, please submit the form below and we will e-mail you the link to the file</h4>
+<hr>
+<form method="get">
+    <table border="0" cellpading="2" cellspacing="15" bgcolor="violet" align="center">
+        <tr>
+            <td>
+                <lable for="name"> First Name</lable>
+            </td>
+            <td>
+                <input type="text" id="name" name="name" size="25" min="3" maxlength="20"required> 
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <lable for="Lname"> Last Name</lable>
+            </td>
+            <td>
+                <input type="text" id="name" name="name" size="25" min="3" maxlength="20"required> 
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <lable for="mailid">E-Mail
+                </lable>
+            </td>
+            <td>
+                <input type="email" id="mailid" size="25" required>
+            </td>    
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <input type="checkbox">
+                <label for="checkbox">if you want to subscribe,please click
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <input type="submit" value="Send me the link"> 
+            </td>
+        </tr> 
+
+    </table>
+</form>
+<br><br><br><hr>
+<!--Order form-->
+<div style="background-color:rgb(241, 10, 164);
+color: aliceblue; text-align: center; ">Order Form
+</div>
+<br><br>
+<form method="get">
+    <table border="0" cellpading="2" cellspacing="15" bgcolor="violet" align="center">
+        <tr>
+            <td>
+                <label for="name">
+                    Name:
+                </label>
+            </td>
+        </tr>
+        <tr>        
+            <td>
+                <input type="text" id="name" name="name"size="30" min="3" maxlength="8" required>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <lable for="email">E-mail
+                </lable> 
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="email" id="mailid" name="email" required>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <label for="phone">Contact Number
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+                <small>Format:0123456789 
+                <small>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <lable for="address">Address Line1
+                </lable>
+            </td>
+        </tr>
+        <tr>    
+            <td colspan="3">
+                <input type="text" size="80" maxlength="50" required>
+            </td>
+        </tr>   
+        <tr>
+            <td colspan="3">
+                <lable for="address">Address Line2
+                </lable>
+            </td>
+        </tr>
+        <tr>    
+            <td colspan="3">
+                <input type="text" size="80" maxlength="50" required>
+            </td>
+        </tr> 
+        <tr>
+            <td>
+                <p>
+                Select your Order:
+                </p>
+                <input type="checkbox" id="pizza" value="pizza" name="pizza">
+                <label for="pizza">
+                    Pizza
+                </label>
+                <input type="checkbox" id="burger" value="burger" name="burger">
+                <lable for="burger">
+                    burger
+                </label>    
+                <input type="checkbox" id="meals" value="meals" name="meals">
+                <label for="meals">
+                    Meals
+                </label>
+                <input type="checkbox" id="briyani" value="Briyani" name="Briyani">
+                <label for="briyani">
+                    Briyani
+                </label>
+                <input type="checkbox" name="sandwich" id="sandwich" name="sandwich">
+                <label for="sandwich">
+                    Sandwich
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3" >
+                <label for="quantity">Quantity</label>
+                <input type="number" id="quantity" min="1">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>comments</p>
+                <textarea id="review" name="comments" rows="4" cols="40" >
+                </textarea>
+            </td>    
+        </tr>
+        <tr>
+            <td align="center">
+                <input type="submit" value="Place Order"> 
+            </td>
+            <td align="right">
+                <input type="reset" value="Cancel">
+            </td>
+        </tr> 
+    </table>
+    </form>
+<br><br><br><hr>
+    </body>
+</html>
+    
+                
+   
+
+
+
+
+
